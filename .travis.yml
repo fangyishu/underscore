@@ -28,3 +28,4 @@ env:
   - secure: SRECgXuwcZTcD3GVxTS2bYNgRyye4vq6BLrV2PH9FyNenowsKQR2EwlC/dppc1Q8NWMgv79J/R96q9JOFh+mEH9L5dlBb2yhnGH8amVeM/ChAJHT/F8YktKM453uVpz5fR00QcCQDDUOx6Pvx374ID0OKNpWKAkQBWA9mPTsLnE=
   matrix: BROWSER=false
 after_success: npm run coveralls
+
